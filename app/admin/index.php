@@ -39,6 +39,9 @@ if ($section === 'activity-logs'){
     $sessions = $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -100,7 +103,7 @@ if ($section === 'activity-logs'){
                         </td>
 
                         <td>
-                            <?= htmlspecialchars($activity['activtiy_log_action']) ?>
+                            <?= htmlspecialchars($activity['activity_log_action']) ?>
                         </td>
 
                         <td>
